@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia lion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">
+        <img src="img/Yellow Abstract Lion King Free Logo no found.PNG" alt="Logo" width="auto" height="55"
+          class="d-inline-block align-text-center">
+        Academia Lion
+      </a> <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="#">Localização</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Agendamento
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="cadastro.html">Personal</a></li>
+                <li><a class="dropdown-item" href="cadastro.html">Nutricionista</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="cadastro.html">Aula Experimental</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleRide" class="carousel slide mt-5" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/sports-science-overview-2024.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/strength-training-practice-promotions@2x.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Blog-Post-Featured-Image-31.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section class="container mt-5 mb-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-light mb-3">
+          <img src="img/pexels-pixabay-414029.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plano Essencial - R$50,00/mês</h5>
+            <p class="card-text">Para quem quer começar sem pesar no bolso. Ideal para iniciantes e rotina simples.</p>
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item list-group-item-light">Acesso livre à musculação</li>
+              <li class="list-group-item list-group-item-light">Suporte básico de instrutores</li>
+              <li class="list-group-item list-group-item-light">Vestiário compartilhado</li>
+            </ol>
+            <a href="cadastro.html" class="btn btn-primary mt-3">Cadastrar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light mb-3">
+          <img src="img/pexels-victorfreitas-791763.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plano Plus - R$80,00/mês</h5>
+            <p class="card-text">Mais estrutura, mais resultados. Perfeito para quem já leva o treino a sério.</p>
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item list-group-item-light">Tudo do Plano Essencial</li>
+              <li class="list-group-item list-group-item-light">Avaliação física a cada 2 meses</li>
+              <li class="list-group-item list-group-item-light">Vestiários com armários individuais</li>
+            </ol>
+            <a href="cadastro.html" class="btn btn-primary mt-3">Cadastrar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-lightmb-3">
+          <img src="img/anastase-maragos-7kEpUPB8vNk-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plano Premium - R$120,00/mês</h5>
+            <p class="card-text">A experiência completa, sem limites. Para quem quer performance, conforto e
+              exclusividade.</p>
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item list-group-item-light">Tudo do Plano Plus</li>
+              <li class="list-group-item list-group-item-light">Personal Trainer 1x/semana</li>
+              <li class="list-group-item list-group-item-light">Nutricionista parceiro com desconto exclusivo</li>
+            </ol>
+            <a href="cadastro.html" class="btn btn-primary mt-3">Cadastrar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-auto bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Gym Lion | Projeto acadêmico para a disciplina de TSi</p>
+      <small>Todos os direitos reservados | Desenvolvido com por [Kauã Henrique e Yuri Fabio]</small>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
